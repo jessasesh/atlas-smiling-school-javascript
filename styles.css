@@ -282,6 +282,18 @@
   }
 }
 
+@media (max-width: 768px) {
+  .carousel-item {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .carousel-item img {
+      margin: 0 0 10px; /* Adjust margin for small screens */
+  }
+}
+
+
 /* POPULAR SECTION  */
 
 .popular {
@@ -900,3 +912,4 @@
     width: 90vw;
   }
 }
+
